@@ -1,14 +1,12 @@
-/*
- * Vanessa Hinrichs 
- * CS 250 
- * Assignment 3
- */
+
 package Products;
 
 
-public abstract class Clothing extends Item {
+public abstract class Clothing {
 
 	String type; // footwear, dress, accessories or jewellery
+	
+    public Clothing(){};
 	
 	public String toString()
 	{

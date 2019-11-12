@@ -9,27 +9,16 @@ import java.io.PrintWriter;
 import java.text.DecimalFormat;
 
 import Products.Cereal;
-import Products.Fruit;
-import Products.Item;
-import Products.Pharmacy;
-import Products.Shoes;
-import Products.Speakers;
-import Products.TVS;
-import Products.Toys;
+import Products.Items;
+
 
 public class InventoryManager {
-	protected static Item[] data = new Item[25];
+	protected static Items[] data = new Items[25];
 	protected static int[] cart = new int[25];
 	protected static int size;
 	
 	public InventoryManager() {
-		Pharmacy ph;
-		TVS tv;
-		Shoes shoe;
-		Fruit fruit;
-		Cereal cereal;
-		Toys toy;
-		Speakers speaker;
+		Items itms;
 		
 		Object o = null;
 		int i = 0;
@@ -42,11 +31,13 @@ public class InventoryManager {
 			while (!done) {
 				o = input.readObject();
 				
-				if (o instanceof Pharmacy) {
-					ph = (Pharmacy) o;
-					data[i] = ph;
+				if (o instanceof Items) {
+					itms = (Items) o;
+					data[i] = itms;
 					i++;
 				}
+				
+			/*	
 				if (o instanceof TVS) {
 					tv = (TVS) o;
 					data[i] = tv;
@@ -78,6 +69,7 @@ public class InventoryManager {
 					i++;
 				}
 				
+				*/
 			}
 			
 		}
@@ -99,7 +91,7 @@ public class InventoryManager {
 		if (data[pos].getInventory()>0 && data[pos].getInventory()>=qty) {
 			data[pos].setInventory(storage - qty);
 			cart[pos] += qty;
-			System.out.println("Added " + cart[pos] + " " + data[pos].getName());
+			System.out.println("Added " + cart[pos] + " " + data[pos].Name());
 			return true;
 		}
 		else {
@@ -123,7 +115,7 @@ public class InventoryManager {
 		return df.format(result);
 	}
 	
-	public static Item[] getData() {
+	public static Items[] getData() {
 		return data;
 	}
 
@@ -132,7 +124,7 @@ public class InventoryManager {
 	}
 	
 	public static String getName(int pos) {
-		return data[pos].getName();
+		return data[pos].Name();
 	}
 	
 	public static String toString(int pos) {
@@ -144,18 +136,26 @@ public class InventoryManager {
 	}
 	
 	public static String getCode(int pos) {
-		return data[pos].getCode();
+		return data[pos].Code();
 	}
 	
 	public static double getPrice(int pos) {
 		return data[pos].getPrice();
 	}
 	
+	
 	public static String getType(int pos) {
 		Object o = data[pos];
+		/*
 		if (o instanceof Pharmacy) {
 			return "Pharmacy";
 		}
+		*/
+		
+		if (o instanceof Items) {
+			return "Item";
+		}
+		/*
 		if (o instanceof TVS) {
 			return "TVS";
 		}
@@ -174,14 +174,16 @@ public class InventoryManager {
 		if (o instanceof Speakers) {
 			return "Speakers";
 		}
+		*/
 		return "All";
 	}
+	
 	
 	public static void orderList() throws FileNotFoundException {
 		PrintWriter output = new PrintWriter(new File("OrderList.txt"));
 		for (int i=0; i<size; i++) {
 			if (data[i].getInventory()<10) {
-				output.println(data[i].getName() + ", current inventory: " + data[i].getInventory());
+				output.println(data[i].Name() + ", current inventory: " + data[i].getInventory());
 			}
 		}
 		System.out.println("Low inventory exported to \"OrderList.txt\"");

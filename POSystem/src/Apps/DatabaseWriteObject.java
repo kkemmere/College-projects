@@ -5,13 +5,8 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
 
-import Products.Cereal;
-import Products.Fruit;
-import Products.Pharmacy;
-import Products.Shoes;
-import Products.Speakers;
-import Products.TVS;
-import Products.Toys;
+
+import Products.Items;
 
 import java.io.*;
 import java.util.*;
@@ -23,13 +18,8 @@ public class DatabaseWriteObject {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Pharmacy ph;
-		TVS tv;
-		Shoes shoe;
-		Fruit fruit;
-		Cereal cereal;
-		Toys toy;
-		Speakers speaker;
+		
+		Items itms;
 		
 		Object o = null;
 		
@@ -45,18 +35,20 @@ public class DatabaseWriteObject {
 		{
 			o = input.readObject();
 
-			if (o instanceof Pharmacy)
+			if (o instanceof Items)
 			{
-				ph = (Pharmacy) o;
+				itms = (Items) o;
 				
-				System.out.println(" The pharmacy object: " + ph.toString());
+				System.out.println(" The item object: " + itms.toString());
 				
-				System.out.println(" the inventory is " + ph.getInventory());
+				System.out.println(" the inventory is " + itms.getInventory());
 
-				ph.setInventory(45);  // inventory can be changed in the object this way
+				itms.setInventory(45);  // inventory can be changed in the object this way
 				
 				System.out.println(" The inventory is changed");  // change is not on the file, need to write to the object file
 			}
+			
+		/*
 			if (o instanceof TVS)
 			{
 				tv = (TVS) o;
@@ -99,6 +91,7 @@ public class DatabaseWriteObject {
 				System.out.println(" The Speaker object: " + speaker.toString());
 				
 			}
+			*/
 			
 		}
 		}

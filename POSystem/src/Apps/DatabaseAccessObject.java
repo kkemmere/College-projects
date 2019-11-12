@@ -11,13 +11,7 @@ public class DatabaseAccessObject {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-	Pharmacy ph;
-	TVS tv;
-	Shoes shoe;
-	Fruit fruit;
-	Toys toy;
-	Cereal cereal;
-	Speakers speaker;
+	Items itms;
 		
 	Scanner input = new Scanner(new File("inp.dat"));
 	
@@ -31,10 +25,11 @@ public class DatabaseAccessObject {
 		
 		switch (s.charAt(0))
 		{
-			case 'F' : fruit = new Fruit(s);
-						out.writeObject(fruit);
+			case 'I' : itms = new Items(s);
+						out.writeObject(itms);
 			break;
 
+			/*
 			case 'S' : shoe = new Shoes(s);
 						out.writeObject(shoe);
 					break;
@@ -56,7 +51,7 @@ public class DatabaseAccessObject {
 			case 'L' : speaker = new Speakers(s);
 						out.writeObject(speaker);
 						break;	
-		
+		*/
 		}
 		
 	}
