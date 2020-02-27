@@ -1,0 +1,368 @@
+Name,Sex,Breed,BreedType,Age,AgeGroup,Test Result
+Caesar,Male,Mix,Mix,7Y 4M,Age6-8,Positive
+Opie,Neuter,Beagle,Hound,7Y 2M,Age6-8,Negative
+Baxter,Male,Doberman Pinscher,Working,3Y 10M - deceased,Age2-4,Negative
+Roxanne,Female,Labrador Retriever - N/A,Sporting,13Y 0M,Age12-up,Negative
+Maggie,Spay,Miniature Schnauzer,Terrier,10Y 9M,Age10-12,Negative
+Anna,Spay,Rottweiler,Working,5Y 9M,Age4-6,Negative
+Baron,Male,Pitbull,Terrier,7Y 0M,Age6-8,Negative
+Peanut,Neuter,Cockapoo,Non-Sporting,12Y 5M,Age12-up,Negative
+Casey,Spay,Labrador Retriever - Black,Sporting,9Y 6M,Age8-10,Negative
+Cajun,Female,Mix,Mix,10Y 5M,Age10-12,Negative
+Apollo,Male,Schipperke,Non-Sporting,9Y 5M,Age8-10,Negative
+Lucy,Spay,Border Collie,Herding,8Y 11M,Age8-10,Negative
+Tug,Female,Labrador Retriever - Yellow,Sporting,7Y 10M,Age6-8,Negative
+Princes,Spay,Lhasa Apso,Non-Sporting,5Y 6M,Age4-6,Negative
+Muffin,Female,Lhasa Apso,Non-Sporting,10Y 4M,Age10-12,Negative
+Muffin,Spay,Mix,Mix,12Y 3M - deceased,Age12-up,Negative
+Duke,Neuter,Labrador Retriever - Yellow,Sporting,7Y 10M,Age6-8,Negative
+Lady,Spay,Chow Chow,Non-Sporting,13Y 0M - deceased,Age12-up,Positive
+Baisl,Spay,English Setter,Sporting,2Y 8M,Age2-4,Negative
+Molly,Spay,Airedale Terrier,Terrier,9Y 8M,Age8-10,Negative
+Buffy,Neuter,Toy Poodle,Toy,13Y 2M,Age12-up,Negative
+Tuck,Male,Labrador Retriever - Black,Sporting,9Y 6M,Age8-10,Negative
+Mohawk,Male,Labrador Retriever - Yellow,Sporting,4Y 0M,Age2-4,Positive
+Annie,Spay,Bassett Hound,Hound,6Y 3M,Age6-8,Negative
+Annie,Spay,Labrador Retriever - Black,Sporting,8Y 6M,Age8-10,Negative
+Maggie,Spay,German Shepherd,Herding,2Y 3M,Age2-4,Negative
+Dingo,Spay,Mix,Mix,11Y 4M,Age10-12,Positive
+Jake,Neuter,Border Collie,Herding,3Y 4M,Age2-4,Negative
+Magnum,Male,Labrador Retriever - Black,Sporting,6Y 1M,Age6-8,Negative
+Missy,Spay,Smooth Coat Dachshund,Hound,2Y 6M,Age2-4,Negative
+Mattie,Spay,Beagle,Hound,8Y 10M,Age8-10,Negative
+Ocho,Male,Labrador Retriever - Black,Sporting,2Y 2M,Age2-4,Negative
+Ginger,Spay,Mix,Mix,11Y 1M,Age10-12,Negative
+Tess,Spay,Mix,Mix,9Y 7M,Age8-10,Negative
+Pepper,Neuter,Mix,Mix,7Y 4M,Age6-8,Negative
+Ozzy,Neuter,Beagle,Hound,9Y 3M,Age8-10,Negative
+Jordan,Male,Golden Retriever,Sporting,11Y 8M,Age10-12,Negative
+Reba,Spay,Labrador Retriever - Black,Sporting,8Y 7M,Age8-10,Negative
+Josie,Spay,Miniature Poodle,Non-Sporting,13Y 9M,Age12-up,Negative
+Duke,Neuter,Pointer,Sporting,10Y 9M,Age10-12,Negative
+Max,Neuter,Labrador Retriever - Black,Sporting,6Y 9M,Age6-8,Positive
+Zeus,Neuter,Labrador Retriever - Yellow,Sporting,6Y 9M,Age6-8,Positive
+Dixie,Spay,Drathaar,Sporting,8Y 0M,Age6-8,Negative
+Blue,Spay,Weimaraner - Grey,Sporting,9Y 1M,Age8-10,Negative
+Riley,Male,Gordon Setter,Sporting,8Y 11M,Age8-10,Negative
+Nellie,Spay,Labrador Retriever - Black,Sporting,6Y 8M,Age6-8,Negative
+Chaser,Neuter,Shetland Sheepdog,Herding,8Y 1M,Age8-10,Negative
+Chac Mool,Neuter,Golden Retriever,Sporting,4Y 1M,Age4-6,Negative
+Tio,Neuter,English Setter,Sporting,3Y 3M,Age2-4,Negative
+Kody,Neuter,Shih Tzu,Toy,3Y 2M,Age2-4,Negative
+Max,Spay,Doberman Pinscher,Working,7Y 7M,Age6-8,Negative
+McKieg,Spay,Golden Retriever,Sporting,6Y 10M,Age6-8,Negative
+Betsy,Female,Beagle,Hound,8Y 7M,Age8-10,Negative
+Sally,Female,Labrador Retriever - Black,Sporting,6Y 7M,Age6-8,Positive
+Buck,Male,Labrador Retriever - Yellow,Sporting,6Y 6M,Age6-8,Negative
+Duke,Neuter,Boxer,Working,5Y 4M,Age4-6,Negative
+Casey,Spay,German Shepherd,Herding,10Y 11M - deceased,Age10-12,Positive
+Kirby,Neuter,Smooth Haired Collie,Herding,9Y 10M,Age8-10,Positive
+Mack,Male,Labrador Retriever - Black,Sporting,2Y 1M,Age2-4,Negative
+Baily,Spay,Golden Retriever,Sporting,10Y 6M,Age10-12,Negative
+Bull,Male,Labrador Retriever - Black,Sporting,N/A - Puppy,Age0-2,Negative
+Damon,Neuter,Longhair Dachshund,Hound,4Y 0M,Age2-4,Negative
+Jordan,Male,Mix,Mix,11Y 10M,Age10-12,Positive
+Tasha,Spay,Labrador Retriever - Yellow,Sporting,4Y 1M,Age4-6,Negative
+Renzie,Neuter,Smooth Coat Dachshund,Hound,9Y 1M,Age8-10,Positive
+Jackson,Neuter,Miniature Pinscher,Toy,6Y 2M,Age6-8,Negative
+Missy,Spay,Mix,Mix,8Y 7M,Age8-10,Positive
+Nellie,Female,English Springer Spaniel,Sporting,8Y 0M,Age6-8,Positive
+Buddy,Spay,Mix,Mix,15Y 6M,Age12-up,Negative
+Brandi,Spay,Lhasa Apso,Non-Sporting,10Y 11M,Age10-12,Negative
+CoCo,Spay,Mix,Mix,8Y 4M,Age8-10,Negative
+Murphy,Neuter,Pug,Toy,4Y 0M,Age2-4,Negative
+Elsa,Spay,English Cocker Spaniel,Sporting,3Y 8M,Age2-4,Negative
+Molly,Spay,Golden Retriever,Sporting,2Y 0M,Age0-2,Negative
+Pookie,Neuter,Mix,Mix,7Y 3M,Age6-8,Negative
+Princes,Female,Shih Tzu,Toy,N/A,,Negative
+Chelsea,Spay,Labrador Retriever - Chocolate,Sporting,11Y 0M,Age10-12,Negative
+Sunny,Female,Labrador Retriever - Yellow,Sporting,6Y 3M,Age6-8,Positive
+Hunter,Neuter,Labrador Retriever - Black,Sporting,3Y 0M,Age2-4,Negative
+Jessie,Spay,Golden Retriever,Sporting,13Y 11M,Age12-up,Negative
+Rusty,Male,Cairn Terrier,Terrier,7Y 5M,Age6-8,Positive
+Dusty,Male,Golden Retriever,Sporting,1Y 10M,Age0-2,Positive
+Max,Male,Miniature Schnauzer,Terrier,2Y 11M,Age2-4,Negative
+Laddie,Male,Shetland Sheepdog,Herding,10Y 5M - deceased,Age10-12,Negative
+Pepper,Male,Miniature Schnauzer,Terrier,11Y 9M,Age10-12,Negative
+Aggie,Spay,Labrador Retriever - Chocolate,Sporting,8Y 0M,Age6-8,Negative
+Bailey,Spay,Labrador Retriever - N/A,Sporting,2Y 6M,Age2-4,Negative
+Minnie,Female,Welsh Terrier,Terrier,3Y 9M,Age2-4,Negative
+Eddie,Male,Labrador Retriever - Black,Sporting,6Y 1M,Age6-8,Negative
+Bella,Spay,Drathaar,Sporting,6Y 9M,Age6-8,Negative
+Presley,Neuter,Bassett Hound,Hound,1Y 8M,Age0-2,Negative
+Casey,Spay,Mix,Mix,3Y 11M,Age2-4,Negative
+Missy,Female,Labrador Retriever - N/A,Sporting,1Y 6M,Age0-2,Negative
+Bandit,Neuter,Mix,Mix,11Y 0M,Age10-12,Positive
+Buddy,Neuter,Golden Retriever,Sporting,5Y 7M,Age4-6,Negative
+Bon Jov,Spay,Miniature Pinscher,Toy,9Y 3M,Age8-10,Negative
+Maggie,Spay,Miniature Schnauzer,Terrier,11Y 11M,Age10-12,Negative
+Tiny,Male,Labrador Retriever - Black,Sporting,6Y 1M,Age6-8,Negative
+Carly,Spay,Shetland Sheepdog,Herding,5Y 10M,Age4-6,Negative
+Honey,Spay,Poodle,Toy,12Y 3M,Age12-up,Negative
+Dusty,Spay,Poodle,Toy,10Y 5M,Age10-12,Negative
+Skye,Female,Siberian Husky,Working,8Y 11M,Age8-10,Negative
+Daisy,Spay,Mix,Mix,7Y 1M,Age6-8,Negative
+Bob,Male,Bichon Frise,Non-Sporting,4Y 6M,Age4-6,Negative
+Chloe,Spay,Beagle,Hound,4Y 7M,Age4-6,Negative
+Roscoe,Neuter,Shetland Sheepdog,Herding,9Y 1M,Age8-10,Negative
+Lucy,Spay,Beagle,Hound,9Y 1M,Age8-10,Negative
+Miles,Neuter,Shetland Sheepdog,Herding,6Y 6M,Age6-8,Negative
+Baxter,Male,Labrador Retriever - Yellow,Sporting,4Y 4M,Age4-6,Positive
+Kody,Neuter,Mix,Mix,9Y 9M,Age8-10,Negative
+Crae,Male,Labrador Retriever - Yellow,Sporting,8Y 11M,Age8-10,Negative
+Molly,Spay,English Springer Spaniel,Sporting,11Y 0M,Age10-12,Negative
+Bailee,Spay,Mix,Mix,2Y 3M,Age2-4,Negative
+Reggie,Neuter,Pug,Toy,8Y 8M,Age8-10,Negative
+Emma,Female,Miniature Pinscher,Toy,3Y 4M,Age2-4,Negative
+Harley,Male,Miniature Pinscher,Toy,2Y 11M,Age2-4,Negative
+Rasta,Spay,Mix,Mix,10Y 4M,Age10-12,Negative
+Lexi,Spay,German Shepherd,Herding,2Y 0M,Age0-2,Negative
+Shauna,Spay,Mix,Mix,12Y 7M - deceased,Age12-up,Positive
+Roscoe,Male,Rottweiler,Working,4Y 7M - deceased,Age4-6,Positive
+Thumper,Neuter,Schipperke,Non-Sporting,6Y 3M,Age6-8,Positive
+Shadow,Spay,Border Collie,Herding,9Y 9M,Age8-10,Positive
+Molly,Spay,Mix,Mix,11Y 6M - deceased,Age10-12,Negative
+Rex,Neuter,Mix,Mix,7Y 0M,Age6-8,Negative
+Barron,Male,Rottweiler,Working,3Y 0M,Age2-4,Positive
+Jada,Spay,Mix,Mix,16Y 3M,Age12-up,Negative
+Geronim,Male,Mix,Mix,5Y 4M,Age4-6,Negative
+Scrap,Spay,Labrador Retriever - Chocolate,Sporting,1Y 7M,Age0-2,Negative
+Bert,Neuter,Mix,Mix,8Y 6M,Age8-10,Negative
+Tess,Spay,Miniature Schnauzer,Terrier,8Y 5M,Age8-10,Negative
+Shelby,Spay,Mix,Mix,6Y 8M,Age6-8,Negative
+Sadie,Spay,Golden Retriever,Sporting,7Y 10M,Age6-8,Negative
+Sadie,Spay,Labrador Retriever - Yellow,Sporting,3Y 0M,Age2-4,Negative
+Sarge,Neuter,Labrador Retriever - Yellow,Sporting,2Y 4M,Age2-4,Negative
+Brownie,Spay,Mix,Mix,7Y 10M,Age6-8,Negative
+Yukon,Neuter,Bernese Mountain Dog,Working,4Y 3M,Age4-6,Negative
+Athena,Spay,Pitbull,Terrier,1Y 8M,Age0-2,Negative
+Abbie,Spay,Mix,Mix,3Y 6M,Age2-4,Negative
+Zoe,Spay,Mix,Mix,7Y 5M,Age6-8,Negative
+Bop,Male,Mix,Mix,2Y 2M,Age2-4,Negative
+Daisy,Spay,Golden Retriever,Sporting,11Y 4M,Age10-12,Positive
+Rosie,Spay,Shetland Sheepdog,Herding,4Y 1M,Age4-6,Negative
+Skipper,Neuter,Mix,Mix,13Y 3M,Age12-up,Negative
+Snoopy,Male,Mix,Mix,12Y 0M,Age10-12,Positive
+Charlie,Neuter,Shih Tzu,Toy,5Y 3M,Age4-6,Positive
+Rufus,Neuter,Golden Retriever,Sporting,5Y 0M,Age4-6,Negative
+Katie,Spay,Brittany Spaniel,Sporting,6Y 0M,Age4-6,Negative
+Thunder,Neuter,Beagle,Hound,4Y 11M,Age4-6,Negative
+Rudy,Male,Mix,Mix,6Y 1M,Age6-8,Negative
+Jacob,Neuter,Shetland Sheepdog,Herding,5Y 4M,Age4-6,Negative
+Zoe,Spay,Basset Hound,Hound,3Y 10M,Age2-4,Negative
+Ben,Neuter,Labrador Retriever - Black,Sporting,4Y 3M,Age4-6,Negative
+Noerska,Neuter,Mix,Mix,6Y 1M,Age6-8,Negative
+Brownie,Neuter,Mix,Mix,N/A,,Positive
+Harrison,Male,Mix,Mix,N/A - deceased,,Positive
+Martin,Neuter,Mix,Mix,4Y 9M,Age4-6,Negative
+Bailey,Spay,Golden Retriever,Sporting,5Y 7M,Age4-6,Negative
+Becky,Spay,Rottweiler,Working,8Y 6M,Age8-10,Positive
+Skippy,Male,Jack Russel Terrier,Terrier,3Y 11M,Age2-4,Positive
+Abraham,Male,Shetland Sheepdog,Herding,10Y 1M,Age10-12,Positive
+Kelsey,Spay,Mix,Mix,10Y 9M,Age10-12,Negative
+Harley,Neuter,Labrador Retriever - Chocolate,Sporting,12Y 2M,Age12-up,Positive
+Blossom,Female,Bassett Hound,Hound,5Y 4M,Age4-6,Negative
+Nikita,Spay,Siberian Husky,Working,11Y 3M,Age10-12,Negative
+Madeline,Spay,Beagle,Hound,2Y 8M,Age2-4,Negative
+Josee,Spay,Lhasa Apso,Non-Sporting,11Y 4M,Age10-12,Negative
+Jake,Neuter,English Springer Spaniel,Sporting,11Y 0M,Age10-12,Negative
+Alex,Neuter,Golden Retriever,Sporting,10Y 1M - deceased,Age10-12,Negative
+Minnie,Spay,Mix,Mix,11Y 1M,Age10-12,Negative
+Callie,Female,Golden Retriever,Sporting,10Y 4M - deceased,Age10-12,Negative
+Tara,Spay,Mix,Mix,10Y 7M,Age10-12,Negative
+Chance,Neuter,Mix,Mix,12Y 11M - deceased,Age12-up,Negative
+Greta,Spay,Labrador Retriever - Black,Sporting,10Y 3M,Age10-12,Negative
+Annie,Spay,Labrador Retriever - Black,Sporting,2Y 3M,Age2-4,Negative
+Ginger,Spay,Golden Retriever,Sporting,9Y 5M,Age8-10,Negative
+Bull,Neuter,Labrador Retriever - Black,Sporting,9Y 11M,Age8-10,Negative
+Haley,Spay,Miniature Schnauzer,Terrier,8Y 9M,Age8-10,Positive
+Jazmine,Spay,Mix,Mix,7Y 3M,Age6-8,Negative
+Darby,Spay,Mix,Mix,5Y 7M,Age6-8,Negative
+Murphy,Spay,Labrador Retriever - Chocolate,Sporting,13Y 8M,Age12-up,Negative
+Ellie,Spay,Papillon,Toy,11Y 1M,Age10-12,Negative
+Abby,Spay,Mix,Mix,13Y 6M,Age12-up,Negative
+Dottie Duster,Female,English Cocker Spaniel,Sporting,4Y 6M,Age4-6,Negative
+Maggie,Female,English Cocker Spaniel,Sporting,3Y 11M,Age2-4,Negative
+Buddy,Neuter,Mix,Mix,7Y 4M,Age6-8,Positive
+Bandit,Neuter,Shih Tzu,Toy,8Y 11M,Age8-10,Negative
+Abby,Female,Labrador Retriever - Yellow,Sporting,6Y 3M,Age6-8,Negative
+Samantha,Spay,Golden Retriever,Sporting,5Y 2M,Age4-6,Positive
+Maddie,Female,Labrador Retriever - Black,Sporting,2Y 11M,Age2-4,Negative
+Roscoe,Male,Mix,Mix,7Y 10M,Age6-8,Negative
+Buddy Franklin,Neuter,Mix,Mix,2Y 10M,Age2-4,Negative
+Chance,Neuter,Great Dane,Working,7Y 11M,Age6-8,Positive
+Chelsea,Spay,Rough Coat Collie,Herding,6Y 1M,Age6-8,Negative
+Lucky Dog,Neuter,English Springer Spaniel,Sporting,7Y 11M,Age6-8,Positive
+Heckle,Male,Mix,Mix,9Y 10M,Age8-10,Negative
+Minnie,Spay,Labrador Retriever - Black,Sporting,9Y 5M,Age8-10,Negative
+Lucy,Spay,Mix,Mix,5Y 7M,Age4-6,Negative
+Griz,Neuter,Labrador Retriever - Black,Sporting,7Y 9M,Age6-8,Negative
+Dolly,Spay,Shetland Sheepdog,Herding,7Y 6M,Age6-8,Negative
+Wally,Neuter,Pug,Toy,2Y 11M,Age2-4,Negative
+Bub,Male,Chesapeake Retriever,Sporting,4Y 4M,Age4-6,Negative
+Ragan,Spay,German Shepherd,Herding,5Y 2M,Age4-6,Negative
+Keli,Spay,Golden Retriever,Sporting,8Y 7M,Age8-10,Negative
+Kirby,Neuter,Mix,Mix,3Y 4M,Age2-4,Positive
+Freckles,Spay,Shetland Sheepdog,Herding,12Y 4M,Age12-up,Negative
+Stella,Spay,Mix,Mix,5Y 10M,Age4-6,Negative
+Prancer,Neuter,Mix,Mix,7Y 7M,Age6-8,Negative
+Spooks,Spay,Mix,Mix,4Y 6M,Age4-6,Positive
+Tootsie,Female,Smooth Chihuahua,Toy,15Y 4M,Age12-up,Negative
+Pride,Neuter,Labrador Retriever - Black,Sporting,5Y 6M,Age4-6,Negative
+Cody,Neuter,Beagle,Hound,3Y 5M,Age2-4,Negative
+Kohl,Spay,Labrador Retriever - Black,Sporting,5Y 0M,Age4-6,Negative
+Cash,Neuter,Labrador Retriever - Chocolate,Sporting,3Y 0M,Age2-4,Negative
+Rusty,Male,Golden Retriever,Sporting,5Y 4M,Age4-6,Negative
+Cooper,Spay,Smooth Dachshund,Hound,1Y 9M,Age0-2,Negative
+Nike,Female,Shetland Sheepdog,Herding,2Y 11M,Age2-4,Negative
+Adidas,Neuter,Shetland Sheepdog,Herding,2Y 11M,Age2-4,Negative
+Skip,Spay,Australian Blue Heeler,Herding,13Y 1M,Age12-up,Negative
+Quart,Neuter,Mix,Mix,10Y 11M,Age10-12,Negative
+Kaya,Spay,Mix,Mix,8Y 6M,Age8-10,Negative
+Snoopy,Neuter,Beagle,Hound,7Y 9M,Age6-8,Positive
+Ace,Male,Labrador Retriever - Black,Sporting,3Y 10M,Age2-4,Negative
+Sam,Neuter,Golden Retriever,Sporting,,,Positive
+CoCo,Spay,Labrador Retriever - Chocolate,Sporting,3Y 2M,Age2-4,Negative
+Drake,Male,Labrador Retriever - Yellow,Sporting,3Y 3M,Age2-4,Negative
+Grinch,Neuter,Yorkshire Terrier,Toy,6Y 2M - deceased,Age6-8,Negative
+Midnight,Female,Labrador Retriever - Black,Sporting,6Y 6M - deceased,Age6-8,Negative
+Brunswick,Female,Labrador Retriever - Chocolate,Sporting,3Y 0M,Age2-4,Negative
+Mango,Spay,Jack Russell Terrier,Terrier,2Y 11M,Age2-4,Negative
+Sally Jane Johnson,Spay,Labrador Retriever - Yellow,Sporting,5Y 9M,Age4-6,Negative
+Cosmo,Neuter,Mix,Mix,2Y 6M,Age2-4,Negative
+Matilda,Spay,Mix,Mix,7Y 4M,Age6-8,Negative
+Buddy,Male,Mix,Mix,2Y 4M,Age2-4,Negative
+Baby,Spay,Mix,Mix,4Y 6M,Age4-6,Negative
+Tyson,Neuter,Pitbull,Terrier,5Y 9M,Age4-6,Negative
+Chaos,Spay,Boxer,Working,6Y 5M,Age6-8,Negative
+Hunter,Neuter,Labrador Retriever - Black,Sporting,3Y 0M,Age2-4,Negative
+Lulu,Spay,Miniature Pinscher,Toy,2Y 7M,Age2-4,Negative
+Tasha,Spay,Husky,Working,8Y 6M,Age8-10,Negative
+Keeta,Spay,Husky,Working,8Y 7M,Age8-10,Negative
+CoCo,Spay,Labrador Retriever - Chocolate,Sporting,2Y 6M,Age2-4,Negative
+Reno,Spay,Cocker Spaniel,Sporting,9Y 3M,Age8-10,Negative
+Lucky,Neuter,Mix,Mix,11Y 6M,Age10-12,Negative
+Archibald,Male,Poodle,Toy,14Y 3M,Age12-up,Negative
+Tinker,Spay,Rat Terrier,Terrier,7Y 8M,Age6-8,Negative
+Hunter,Male,Golden Retriever,Sporting,9Y 5M - deceased,Age8-10,Positive
+Peaches,Female,Golden Retriever,Sporting,1Y 8M,Age0-2,Positive
+Brooke,Spay,Golden Retriever,Sporting,9Y 11M,Age8-10,Negative
+Riley,Neuter,Labrador Retriever - Black,Sporting,7Y 8M,Age6-8,Positive
+Stumpy,Neuter,Mix,Mix,10Y 10M,Age10-12,Positive
+Murphy,Spay,Cairn Terrier,Terrier,15Y 0M,Age12-up,Positive
+Beto,Neuter,Labrador Retriever - Chocolate,Sporting,7Y 4M,Age6-8,Negative
+Athena,Spay,Labrador Retriever - Yellow,Sporting,6Y 0M,Age4-6,Negative
+Toby,Neuter,Golden Retriever,Sporting,4Y 4M,Age4-6,Negative
+Oscar,Neuter,Mix,Mix,6Y 10M,Age6-8,Negative
+Ollie,Neuter,Mix,Mix,5Y 1M,Age4-6,Positive
+Rip,Neuter,Mix,Mix,5Y 1M,Age4-6,Positive
+Sophie,Spay,Shih Tzu,Toy,12Y 7M,Age12-up,Negative
+Barkley Bear,Neuter,Lhasa Apso,Non-Sporting,11Y 10M,Age10-12,Negative
+Shelby,Female,Rat Terrier,Terrier,4Y 1M,Age4-6,Negative
+Scooter,Spay,Miniature Schnauzer,Terrier,13Y 9M,Age12-up,Negative
+Bailey,Neuter,Bichon Frise,Non-Sporting,5Y 11M,Age4-6,Negative
+Sara,Spay,Rat Terrier,Terrier,2Y 2M,Age2-4,Negative
+Spike,Neuter,Rat Terrier,Terrier,2Y 5M,Age2-4,Negative
+Louie,Male,Newfoundland,Working,1Y 9M,Age0-2,Negative
+Libby,Spay,Labrador Retriever - Yellow,Sporting,6Y 0M,Age4-6,Negative
+Pirate,Neuter,Mix,Mix,1Y 8M,Age0-2,Negative
+Dylan,Neuter,Mix,Mix,2Y 10M,Age2-4,Negative
+Snickers,Spay,Yorkshire Terrier,Toy,4Y 2M,Age4-6,Negative
+Chester,Neuter,Cocker Spaniel,Sporting,14Y 4M,Age12-up,Negative
+Uno,Neuter,American Eskimo Spitz,Non-Sporting,6Y 5M,Age6-8,Negative
+Ky-Otee,Male,American Eskimo Spitz,Non-Sporting,3Y 5M,Age2-4,Negative
+Big Dan,Neuter,American Eskimo Spitz,Non-Sporting,3Y 5M,Age2-4,Negative
+Jessie,Neuter,Mix,Mix,6Y 10M,Age6-8,Negative
+Kobe,Neuter,Golden Retriever,Sporting,3Y 11M,Age2-4,Positive
+Danny,Spay,Weimaraner,Sporting,7Y 10M,Age6-8,Negative
+Bumper,Neuter,Shetland Sheepdog,Herding,11Y 8M,Age10-12,Negative
+Tara,Spay,Mix,Mix,10Y 7M,Age10-12,Negative
+Skeeter,Spay,Labrador Retriever - Chocolate,Sporting,10Y 4M,Age10-12,Negative
+Ginger,Spay,Miniature Schnauzer,Terrier,10Y 7M,Age10-12,Positive
+Pick,Male,Labrador Retriever - Black,Sporting,10Y 3M,Age10-12,Positive
+Belle,Female,English Setter,Sporting,4Y 10M,Age4-6,Negative
+Jake,Male,Doberman Pinscher,Working,11Y 6M,Age10-12,Negative
+Boomer,Neuter,Golden Retriever,Sporting,9Y 11M,Age8-10,Positive
+Gracey,Spay,Bassett Hound,Hound,7Y 9M,Age6-8,Negative
+Josie,Spay,Labrador Retriever - Yellow,Sporting,5Y 3M,Age4-6,Negative
+Jagger,Neuter,English Cocker Spaniel,Sporting,14Y 1M,Age12-up,Negative
+Monster,Neuter,Alaskan Malamute,Working,6Y 3M,Age6-8,Negative
+Zoe,Spay,Mix,Mix,2Y 4M,Age2-4,Negative
+Alex,Neuter,English Springer Spaniel,Sporting,9Y 7M,Age8-10,Negative
+Harley,Neuter,Mix,Mix,6Y 0M,Age4-6,Negative
+Josie,Spay,Labrador Retriever - Black,Sporting,2Y 8M,Age2-4,Negative
+Samson,Neuter,Mix,Mix,1Y 8M,Age0-2,Positive
+Misty,Spay,Siberian Husky,Working,1Y 9M,Age0-2,Negative
+Jessie,Spay,Mix,Mix,12Y 4M - deceased,Age12-up,Negative
+Nitro,Spay,Smooth Dachshund,Hound,2Y 3M,Age2-4,Negative
+Chico,Male,Chow Chow,Non-Sporting,13Y 0M,Age12-up,Negative
+Pearl,Female,Bullmastiff,Working,5Y 2M,Age4-6,Negative
+Woody,Neuter,Beagle,Hound,8Y 1M,Age8-10,Negative
+Jimmy,Male,Mix,Mix,4Y 11M,Age4-6,Positive
+Willie,Spay,Mix,Mix,4Y 11M,Age4-6,Positive
+Riley,Female,Labrador Retriever - Chocolate,Sporting,4Y 5M - deceased,Age4-6,Negative
+Sidney,Spay,Labrador Retriever - Black,Sporting,6Y 1M,Age6-8,Positive
+Cedar,Spay,Siberian Husky,Working,2Y 6M,Age2-4,Negative
+Bub,Male,Chesapeake Retriever,Sporting,4Y 4M,Age4-6,Negative
+Bridgett,Spay,Bearded Collie,Herding,N/A,,Negative
+Cassie,Spay,Border Collie,Herding,6Y 6M,Age6-8,Positive
+Nanook,Male,Samoyed,Working,7Y 9M,Age6-8,Negative
+Sassy,Spay,Mix,Mix,6Y 0M,Age4-6,Negative
+Henley,Neuter,German Shepherd,Herding,11Y 1M,Age10-12,Positive
+Lucky,Spay,Mix,Mix,9Y 2M,Age8-10,Positive
+Drummer,Neuter,Smooth Chihuahua,Toy,2Y 7M,Age2-4,Negative
+Viking,Male,Labrador Retriever - Black,Sporting,5Y 7M,Age4-6,Negative
+Clyde,Male,Pug,Toy,12Y 4M,Age12-up,Negative
+Colorado,Male,English Cocker Spaniel,Sporting,3Y 11M,Age2-4,Negative
+Coconut,Spay,W. Highland Terrier,Terrier,3Y 4M,Age2-4,Negative
+Brandy,Spay,Mix,Mix,3Y 4M,Age2-4,Negative
+Huck,Male,Labrador Retriever - Black,Sporting,1Y 7M,Age0-2,Negative
+Ice,Neuter,Labrador Retriever - Yellow,Sporting,2Y 11M,Age2-4,Negative
+Chloe,Spay,Cairn Terrier,Terrier,2Y 10M,Age2-4,Positive
+Trooper,Male,Brittany Spaniel,Sporting,4Y 10M,Age4-6,Positive
+Lady,Spay,Border Collie,Herding,13Y 2M,Age12-up,Positive
+Buttons,Neuter,Border Collie,Herding,2Y 0M,Age0-2,Positive
+Jessie,Male,Labrador Retriever - Yellow,Sporting,1Y 4M,Age0-2,Positive
+Baxter,Male,Doberman Pinscher,Working,3Y 10M - deceased,Age2-4,Positive
+Maggie,Spay,Labrador Retriever - Black,Sporting,3Y 11M,Age2-4,Negative
+Saddie Mae,Spay,Poodle,Toy,4Y 11M,Age4-6,Negative
+Maxine,Spay,English Springer Spaniel,Sporting,11Y 8M,Age10-12,Negative
+Sadie,Spay,Labrador Retriever - Chocolate,Sporting,13Y 7M,Age12-up,Negative
+Rebecca,Spay,Labrador Retriever - Yellow,Sporting,8Y 11M,Age8-10,Negative
+Casey,Male,English Springer Spaniel,Sporting,4Y 4M,Age4-6,Negative
+Duke,Neuter,Labrador Retriever - Yellow,Sporting,7Y 10M,Age6-8,Positive
+Nip,Male,Labrador Retriever - Black,Sporting,2Y 10M,Age2-4,Negative
+Chere,Spay,Golden Retriever,Sporting,8Y 11M,Age8-10,Negative
+Ginger,Spay,Mix,Mix,13Y 10M - deceased,Age12-up,Negative
+Bolder,Spay,German Shorthair Pointer,Sporting,10Y 0M,Age8-10,Negative
+Daisy Mae,Spay,Rat Terrier,Terrier,4Y 4M,Age4-6,Negative
+Duke,Male,Norwegian Elkhound,Hound,9Y 6M - deceased,Age8-10,Positive
+Macie,Spay,German Shepherd,Herding,1Y 2M,Age0-2,Negative
+Foster,Neuter,Labrador Retriever - Black/White,Sporting,5Y 11M,Age4-6,Negative
+Caita,Spay,Golden Retriever,Sporting,9Y 3M,Age8-10,Positive
+Maize,Spay,Mix,Mix,5Y 8M,Age4-6,Negative
+Deshka,Female,Labrador Retriever - Black,Sporting,3Y 1M,Age2-4,Negative
+Boot Scoot Gipsee,Spay,Dalmatian,Non-Sporting,10Y 7M,Age10-12,Negative
+Buttons,Spay,Bichon Frise,Non-Sporting,6Y 8M,Age6-8,Negative
+Copper,Male,Smooth Chihuahua,Toy,5Y 10M,Age4-6,Negative
+Casey,Male,English Setter,Sporting,7Y 4M,Age6-8,Negative
+Sadie,Spay,Brittany Spaniel,Sporting,13Y 6M - deceased,Age12-up,Negative
+Tanner,Neuter,Cocker Spaniel,Sporting,5Y 9M,Age4-6,Negative
+Boo,Spay,Labrador Retriever - Yellow,Sporting,6Y 10M,Age6-8,Positive
+Tug,Neuter,Labrador Retriever - Chocolate,Sporting,1Y 2M,Age0-2,Negative
+Meg,Female,Labrador Retriever - Black,Sporting,1Y 2M,Age0-2,Positive
+Shani,Spay,Mix,Mix,7Y 10M,Age6-8,Negative
+Freddy,Male,Pekingese,Toy,9Y 2M,Age8-10,Negative
+Abby,Spay,Mix,Mix,13Y 4M,Age12-up,Positive
+Casey,Spay,German Shepherd,Herding,10Y 11M - deceased,Age10-12,Positive
+Kate,Spay,Golden Retriever,Sporting,6Y 4M,Age6-8,Negative
+Molly,Female,Golden Retriever,Sporting,5Y 9M,Age4-6,Negative
+Zoe,Spay,Labrador Retriever,Sporting,7Y 11M,Age6-8,Negative
+Emma,Spay,Mix,Mix,8Y 5M,Age8-10,Positive
+Chance,Male,Labrador Retriever - Yellow,Sporting,4Y 0M,Age2-4,Negative
+Nakita,Female,Mix,Mix,4Y 5M,Age4-6,Negative
+Red,Neuter,Golden Retriever,Sporting,10Y 3M,Age10-12,Negative
+Jackson,Neuter,Miniature Pinscher,Toy,6Y 2M,Age6-8,Negative
+Baby,Spay,Shetland Sheepdog,Herding,6Y 7M,Age6-8,Negative
+Gidget,Spay,Doberman Pinscher,Working,5Y 2M,Age4-6,Positive
+Jasmine,Spay,Rottweiler,Working,8Y 8M - deceased,Age8-10,Negative
