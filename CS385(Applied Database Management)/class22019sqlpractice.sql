@@ -1,0 +1,145 @@
+use university;
+
+select * from instructor, teaches; 
+
+/* Finding the name and course id of which an instructor teaches, setting the IDs the same */
+select name, course_id from instructor I, teaches T where I.ID = T.ID;
+
+/* Finding the name and course id of which an instructor teaches */
+select name, course_id from instructor NATURAL JOIN teaches where instructor.ID = teaches.ID;
+
+/* Finding the name and course title of which the instructor teaches */
+select name, title from instructor, teaches, course where instructor.ID = teaches.ID and teaches.course_id = course.course_id;
+
+/* Finding the name of instructors with d in their name */
+select name from instructor where name like "%d%";
+
+/* Finding the name of instructors in descending order */
+select name from instructor order by name desc;
+
+/* Finding the name and department name of instructors ordered by dept_name and name in alphabetical */
+select name, dept_name 
+from instructor order by dept_name, name;
+
+/* Finding the name of instructors with salary > 70000 */
+select name, salary 
+from instructor 
+where salary > 70000.00;
+
+/* Simple tuple comparrison selecting name and course_id of instructor who teaches biology */
+select name, course_id
+from instructor, teaches 
+where (instructor.ID, dept_name) = (teaches.ID, "Biology");
+
+/* Finding courses that ran in the fall 2009 OR in spring 2010 */
+select course_id 
+from section 
+where (semester = "Fall" & year = "2009") or (semester = "Spring" & year = "2010");
+
+/* Same line of code as the one above but using union instead of or */
+select course_id 
+from section 
+where semester = "Fall" and year = "2009" union select course_id from section where semester = "Spring" and year = "2010";
+
+/* Finding courses that ran in Fall 2009 and in Spring 2010 but done the WRONG WAY */
+select course_id 
+from section 
+where (semester ="Fall" and year = "2009") and (semester = "Spring" and year = "2010");
+
+/* Finding courses that ran in Fall 2009 and in Spring 2010 the CORRECT WAY */
+select s1.course_id 
+from section as s1, section as s2
+where s1.course_id = s2.course_id and s1.semester = "fall" and s1.year = "2009" and s2.semester = "Spring" and s2.year = "2010";
+
+/* Finding instructor where salary is null */
+select name 
+from instructor 
+where salary is null;
+
+/* Finding the average salary for instructors in Computer Science */
+select avg (salary) 
+from instructor
+where dept_name = "Comp. Sci.";
+
+/* Find the totla number of instructors who teach a course in the Spring 2010 semester */
+select count (distinctID) 
+from teaches 
+where semester = "Spring" and year = "2010";
+
+/* Find the number of tuples in the course relation */
+select count(*) 
+from course;
+
+/* Finding the average salary of isntructors in each department and change name of avg_salary to salary with a having caluse */
+select dept_name, avg(salary) as avg_salary 
+from instructor 
+group by dept_name
+having avg (salary) > 42000;
+
+/* ////////////// 3/6/2019 /////////////// */
+
+/* Finding courses that ran in the Fall 2009 and in Spring 2010 using subquery */
+select distinct course_id 
+from section
+where semester = "Fall" and year = "2009" and course_id not in (select course_id from section where semester = "Spring" and year = "2010");
+
+/* Finding the toal number of (disticnt) students who have takne course sections taught by the instructor with ID 10101 */
+select distinct count (takes.ID)
+from takes, teaches
+where teaches.ID = 10101;
+
+/* Find names of instrucotrs with salary greater than that of some (at least one) instructor in the Biology department */
+select distinct T.name
+from instructor as T, instructor as S
+where T.salary > S.salary and S.dept_name = "Comp. Sci.";
+
+/* Same question as above but done by subquery (nested) using some/all */
+select name
+from instructor
+where salary > all (select salary from instructor where dept_name = "Comp. Sci.");
+
+/* Finding names of instructors whose salary is greater than the salary of all instructors in the Comp Sci department */
+select name
+from instructor
+where salary > (select max(salary) from instructor where dept_name = "Comp. Sci.");
+
+/* Find all students who have taken all courses offered in the Biology department (WITH EXCEPT NOT SUPPORTED BY MYSQL)*/
+select distinct S.ID, S.name
+from student as S
+where not exists ((select course_id
+					from course
+                    where dept_name = "Biology") 
+				except
+                    (select T.course_id
+                    from takes as T 
+                    where S.ID = T.ID));
+                    
+/* Find the average instructors salaries of those departments where the average alary is greater than $42,0000 */
+select dept_name, avg_salary
+from (select dept_name, avg (salary) as avg_salary from instructor group by dept_name) as temp
+where avg_salary > 42000;
+
+/* Problem above but using having instead of nesting subquery */
+select dept_name, avg(salary) as avg_salary 
+from instructor 
+group by dept_name
+having avg (salary) > 42000;
+
+/* Finding all departments with the maximum budget */
+with max_budget (value) as
+	(select max(budget)
+    from department)
+select budget
+from department, max_budget
+where department.budget = max_budget.value;
+
+/* Finding all deparments with the maximum budget WITHOUT WITH CALUSE */
+select budget
+from department
+where budget = (select max(budget) from department);
+
+select budget 
+from department, (select max(budget) from department) as max_budget
+where department.budget = max_budget;
+
+
