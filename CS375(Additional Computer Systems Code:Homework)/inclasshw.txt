@@ -1,0 +1,42 @@
+.data 
+        .balign 4
+        prompt: .asciz "Enter 10 values\n"
+        prompt2: .asciz ">"
+        format: .asciz "%d"
+        a: .skip 40
+        num: .int 0
+        output: .asciz "your input: %d\n"
+        output2: .asciz "The array is: %d\n"
+
+.text 
+
+        .global main
+        .extern printf
+        .extern scanf
+main: 
+
+        push {ip, ir}
+        ldr r5, =a
+        mov r6, #0
+
+loop: 
+
+        cmp r6, #10      // Reached 10?
+        beq end          // If yes, leave loop
+        ldr r0, =prompt  
+        bl printf        
+        ldr r0, =prompt2
+        bl printf
+        ldr r0, =format
+        ldr r1, =num
+        bl scanf
+        ldr r1, =num
+        ldr r1, [r1]
+        ldr r0, =output
+        bl printf
+        add r4, r5, r6, LSL #2  // r3 = r1 + (r2*4)
+        str r6, [r4]            // r2 into r3
+        str r9, [r5, r6]        // Store first num retrieved into A[0]
+        add r6, r6, #1          // Increment index r2
+        b loop
+        end: pop {ip, pc}
