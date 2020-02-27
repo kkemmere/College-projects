@@ -1,0 +1,12 @@
+This assignment was tough for me, my initial design was to first set up the Pre-order, Post-order, and Level-order traversals which i was able to
+do. Next was to set up the tree such that i could input values into a string array for each line that is read from the file. The problem
+i had here was setting up the tree and having the pointers for the nodes work with multiple arrays. I eventually gave up on this part and
+decided to read the file each line at a time and put it into the tree manually because setting up an array of Nodes and having those nodes
+point to each other like a tree would be a tricky task. Eventually i got to the point where i was able to use a test tree and my traversal
+methods as well as the height method to print out the correct height of the tree. The method i had the most problems with was the insert
+method. For some reason mine wouldn't work the way i wanted it to and i was running out of time to complete the assignment. My find
+or more of a contains method sort of works in a way but on some values in the tree it wont recognize them. All in all this assignment was tough
+i wasn't able to get my initial design to work so i had to improvise to complete the task in a more simple but tedious way. The only problem is
+if you were to input new values into the tree.dat file they would have to be input the same way the original values were to get the correct traversals
+and height of the tree. Another problem i ran into was how to set up the generic tree such that if it reads the first value it knows that each node will
+only have said amount of children. I couldn't figure out how to implement that into my code.
