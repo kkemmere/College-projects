@@ -1,0 +1,27 @@
+1.														Kevin Kemmerer #17
+	Input your test score: 
+	52
+	You recieved an F
+2. 
+	Input your test score: 
+	22
+	You recieved an F
+3.
+	Input your test score: 
+	72
+	You recieved a C
+4.
+	Input your test score: 
+	82
+	You recieved a B
+5.
+	Input your test score: 
+	61
+	You recieved a D
+6.
+	Input your test score: 
+	91
+	You recieved an A
+
+
+

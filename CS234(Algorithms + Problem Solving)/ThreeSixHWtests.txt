@@ -1,0 +1,25 @@
+Three Six Homework Tests
+   1.
+	Input the radius of your sphere: 
+	10
+	The radius of your sphere is: 10
+	The surface area of your sphere is: 1256.6371
+	The volume of your sphere is: 3141.5927
+   2. 
+	Input the radius of your sphere: 
+	14
+	The radius of your sphere is: 14
+	The surface area of your sphere is: 2463.0086
+	The volume of your sphere is: 8620.5302
+   3. 
+	Input the radius of your sphere: 
+	25
+	The radius of your sphere is: 25
+	The surface area of your sphere is: 7853.9816
+	The volume of your sphere is: 49087.3852
+   4.
+	Input the radius of your sphere: 
+	5
+	The radius of your sphere is: 5
+	The surface area of your sphere is: 314.1593
+	The volume of your sphere is: 392.6991

@@ -1,0 +1,50 @@
+Program using my Currency Converter class *Tests*										Kevin Kemmerer #17
+1. 
+	What currency are you converting to?
+	Euros
+	How much U.S currency are you converting?
+	200
+	What is the conversion rate?
+	.92
+	Your currency in Euros is 184
+	Thank you for using my currency converter!
+2. 
+	What currency are you converting to?
+	Canadian
+	How much U.S currency are you converting?
+	100
+	What is the conversion rate?
+	1.32
+	Your currency in Canadian is 132
+	Thank you for using my currency converter!
+3. 
+	What currency are you converting to?
+	Rubles
+	How much U.S currency are you converting?
+	100
+	What is the conversion rate?
+	62.50
+	Your currency in Russain is 6250
+	Thank you for using my currency converter!
+
+4. 
+	What currency are you converting to?
+	Bitcoin
+	How much U.S currency are you converting?
+	10000
+	What is the conversion rate?
+	0.0016
+	Your currency in Bitcoin is 16
+	Thank you for using my currency converter!
+
+5. 
+	What currency are you converting to?
+	Euros
+	How much U.S currency are you converting?
+	243
+	What is the conversion rate?
+	.92
+	Your currency in Euros is 223.56
+	Thank you for using my currency converter!
+
+

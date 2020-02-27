@@ -1,0 +1,25 @@
+Three Seven Homework Test Runs Kevin K #17
+   1.
+	Input the length of the first side on the next line: 
+	30
+	Input the length of the second side on the next line: 
+	15
+	Input the length of the third side on the next line: 
+	17
+	The area of your triangle is: 83.33
+   2.
+	Input the length of the first side on the next line: 
+	10
+	Input the length of the second side on the next line: 
+	12
+	Input the length of the third side on the next line: 
+	20
+	The area of your triangle is: 45.596
+   3. 
+	Input the length of the first side on the next line: 
+	12
+	Input the length of the second side on the next line: 
+	14
+	Input the length of the third side on the next line: 
+	22
+	area of your triangle is: 75.895

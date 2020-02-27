@@ -1,0 +1,24 @@
+Currency Conversion Class  *Tests* 									 Kevin Kemmerer #17
+
+1.
+	US currency rate is 1.0
+	Euros currency rate is 0.92
+	50 Euros is 54.347826086956516
+	300 U.S dollars is 300.0
+
+2. 
+	US currency rate is 1.0
+	Euros currency rate is 0.92
+	324 Euros is 352.17391304347825
+	122 U.S dollars is 122.0
+
+3. 
+	US currency rate is 1.0
+	Euros currency rate is 0.92
+	224 Euros is 243.47826086956522
+	100 U.S dollars is 100.0
+4. 
+	US currency rate is 1.0
+	Euros currency rate is 0.92
+	123 Euros is 133.69565217391303
+	230 U.S dollars is 230.0

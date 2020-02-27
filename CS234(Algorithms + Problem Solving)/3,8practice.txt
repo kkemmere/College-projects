@@ -1,0 +1,32 @@
+	Kevin Kemmerer # 17 Test Runs
+
+1. 
+	Your angle in degrees is: 29
+	Your angle in Radians: 0.5061454830783556
+	The Sin value is: 0.48480962024633706
+	The Cos value is: 0.8746197071393957
+	The Tan value is: 0.554309051452769
+2. 	
+	Your angle in degrees is: 33
+	Your angle in Radians: 0.5759586531581288
+	The Sin value is: 0.5446390350150271
+	The Cos value is: 0.838670567945424
+	The Tan value is: 0.6494075931975106
+3.
+	Your angle in degrees is: 26
+	Your angle in Radians: 0.4537856055185257
+	The Sin value is: 0.4383711467890774
+	The Cos value is: 0.898794046299167
+	The Tan value is: 0.48773258856586144
+4. 
+	Your angle in degrees is: 22
+	Your angle in Radians: 0.3839724354387525
+	The Sin value is: 0.374606593415912
+	The Cos value is: 0.9271838545667874
+	The Tan value is: 0.4040262258351568
+5. 
+	Your angle in degrees is: 21
+	Your angle in Radians: 0.3665191429188092
+	The Sin value is: 0.35836794954530027
+	The Cos value is: 0.9335804264972017
+	The Tan value is: 0.3838640350354158

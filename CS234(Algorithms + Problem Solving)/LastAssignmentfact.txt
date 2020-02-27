@@ -1,0 +1,10 @@
+Test Factorial			Kevin Kemmerer #17
+
+1. 6 Factorial(3)
+   8.0 // Power
+2. 3628800 Factorial(10)
+   8.0 // Power
+3. 2 Factorial(2)
+   8.0 // Power
+4. 720 Factorial(6)
+   8.0
