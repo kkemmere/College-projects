@@ -1,0 +1,26 @@
+.data
+.balign 4 
+    format: .asciz "The sum is: %d"
+.text
+.global main
+.extern printf
+
+main:
+    push {ip, lr}
+
+    mov r0, #23
+    mov r1, #24
+
+    bl sum
+    ldr r0, =format
+    ldr r1, [r2]
+    bl printf
+
+    pop {ip, pc}
+sum:
+    push {ip, pc}
+    push {ip, r12}
+    add r12, r0, r1
+    mov r2, r12 
+    pop {ip, r12}
+    pop {ip, pc}

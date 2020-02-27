@@ -1,0 +1,68 @@
+.data
+.balign 4
+    prompt: .asciz "Your inputs will be calculated into this formula fib(n) = fib(n-1) + fib(n-2)\n"
+    out: .asciz "fib(n-1) + fib(n-2) = %d\n"
+    prompt2: .asciz "Please give an integer >\n"
+    counter: .int 0  // r9 counter inital
+    input: .asciz "%d"
+    n1: .int 0   // r17 initial
+    n2: .int 1   // r18 initial
+    num: .int 0 // input from user
+
+.text
+.global main
+.extern printf
+
+fibo:
+    push {r17, r18, lr}
+    ldr r17, [r17]
+    ldr r18, [r18]
+    ldr r9, [r9]
+
+    cmp r9, r4
+    blt L1
+
+    br lr
+L1:
+    add r16, r17, r18
+    mov r17, r18
+    mov r18, r18
+    add r9, r9, #1
+    bl fibo
+
+    pop {r17, r18, lr}
+    add r7, r17, r18
+    br lr
+
+main:
+    push {ip, lr}
+
+    ldr r0, =prompt
+    bl printf
+
+
+    ldr r9, =counter
+    ldr r17, =n1
+    ldr r18, =n2
+
+    ldr r0, =prompt2
+    bl printf
+    
+    // Getting fib input from user
+
+    ldr r0, =input
+    ldr r1, =num
+    ldr r4, =num
+    bl scanf
+    ldr r4, =num
+    ldr r4, [r4]
+
+    bl fibo
+
+    // print
+
+    mov r1, r7
+    ldr r0, =out
+    bl printf
+
+    pop {ip, pc}

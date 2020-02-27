@@ -1,0 +1,17 @@
+.data
+.balign 4
+    input: .asciz "%d"
+    output: .asciz " (a + b)= %d\n"
+    a: .int 0
+    b: .int 0
+    c: .int 0
+.text
+.glboal main
+.extern printf
+.extern scanf
+
+sumFunc:
+    push {ip, lr}
+    push {r10, r11, r12}
+    ldr r10, [r6]
+    ldr r11, [r7]
